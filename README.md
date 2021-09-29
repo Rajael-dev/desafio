@@ -23,7 +23,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Dentro da pasta base do projeto:
 Crie o banco de dados com o seguinte nome: desafiodb, e senha root do seu MySQL
 ```bash
-chmod -R guo+w ./storage
 mysql -u root -p"5521" -e "DROP DATABASE IF EXISTS desafiodb;CREATE DATABASE desafiodb"
 ```
 Em seguida confira no arquivo .env se os dados do banco de dados estão corretos
