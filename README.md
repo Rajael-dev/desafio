@@ -79,7 +79,7 @@ php artisan serve
 {
   "titulo": "O guia do mochileiro das galáxias",
   "autor": "Douglas Adams",
-  "duracao": 200
+  "paginas": 200
 }
 ```
 #### GET (Read)
