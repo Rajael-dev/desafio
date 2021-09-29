@@ -43,3 +43,57 @@ Por fim:
 ```bash
 php artisan serve
 ```
+<br>
+<h1 align="center">
+    Coleção para testes no Postman
+</h1>
+
+## Para a tabela filmes
+#### POST (Create)
+- Rota: http://127.0.0.1:8000/api/filme
+```bash
+{
+  "titulo": "Senhor do Aneis",
+  "descricao": "Uma aventura na Terra Media.",
+  "duracao": 180
+}
+```
+#### GET (Read)
+- 1 filme específico: http://127.0.0.1:8000/api/filme/1
+- Todos: http://127.0.0.1:8000/api/filmes
+#### PUT (Update)
+- Rota: http://127.0.0.1:8000/api/filme/1
+```bash
+{
+  "titulo": "Star Wars",
+  "descricao": "Uma aventura no espaço.",
+  "duracao": 120
+}
+```
+#### DELETE (Delete)
+- Rota: http://127.0.0.1:8000/api/filme/1
+
+## Para a tabela livros
+#### POST (Create)
+- Rota: http://127.0.0.1:8000/api/livro
+```bash
+{
+  "titulo": "O guia do mochileiro das galáxias",
+  "autor": "Douglas Adams",
+  "duracao": 200
+}
+```
+#### GET (Read)
+- 1 livro específico: http://127.0.0.1:8000/api/livro/1
+- Todos: http://127.0.0.1:8000/api/livros
+#### PUT (Update)
+- Rota: http://127.0.0.1:8000/api/livro/1
+```bash
+{
+  "titulo": "Harry Potter",
+  "autor": "J.K. Rowling",
+  "paginas": 500
+}
+```
+#### DELETE (Delete)
+- Rota: http://127.0.0.1:8000/api/livro/1
